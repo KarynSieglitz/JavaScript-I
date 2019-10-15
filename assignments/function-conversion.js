@@ -8,7 +8,6 @@ let myFunction = () => {
 	console.log('Function was invoked!');
 };
 myFunction();
-console.log(myFunction());
 // let anotherFunction = function (param) {
 //   return param;
 // };
@@ -18,7 +17,7 @@ let anotherFunction = (param) => {
 	return param;
 };
 anotherFunction('Example');
-console.log();
+console.log(anotherFunction('Example'));
 
 // let add = function (param1, param2) {
 //   return param1 + param2;

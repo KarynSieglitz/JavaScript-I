@@ -133,4 +133,8 @@ for (let loop = 0; loop < inventory.length; loop++) {
 	BMWAndAudi.push(inventory[loop].car_make);
 }
 
-console.log(BMWAndAudi);
+const expensive = BMWAndAudi.filter(function(car_make) {
+	return car_make == 'BMW' || car_make == 'Audi';
+});
+
+console.log(JSON.stringify(expensive));
